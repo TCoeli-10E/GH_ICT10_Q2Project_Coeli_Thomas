@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
 :root{
-    --accent: #c59a3a;
+    --accent: #c7bda2;
     --accent-2: #39a6b8;
     --muted: #17222a;
     --card: #07121a;
@@ -14,10 +13,10 @@ html,body{
     overflow-x: hidden;
 }
 body {
-    font-family: "Cinzel", Georgia, "Times New Roman", serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     color: var(--text);
-    background: #040C13;
+    background: #f4faff;
     text-align: center;
 }
 .topbar{
@@ -40,7 +39,9 @@ body {
     padding:6px 10px;
     border-radius:4px;
 }
-nav{ margin:0; }
+nav{
+    margin:0;
+}
 .nav-list{
     list-style:none;
     padding:0;
@@ -49,7 +50,9 @@ nav{ margin:0; }
     gap:18px;
     align-items:center;
 }
-.nav-list li{ margin:0; }
+.nav-list li{
+    margin:0; 
+}
 .nav-list a{
     color:var(--dark);
     text-decoration:none;
@@ -211,4 +214,11 @@ img{
     border-radius:8px;
     border:4px double var(--accent);
     color:var(--dark);
+}
+.texttttt{
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    font-size: 20px;
 }

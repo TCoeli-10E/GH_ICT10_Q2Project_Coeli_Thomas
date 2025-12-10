@@ -61,8 +61,8 @@ science = {
     'name of club' : 'science club',
     'description' : 'the pinnacle of piltovers scientific minds',
     'meeting times' : 'every friday 2:00-6:00 pm',
-    'location' : 'professor heimerdingers lab',
-    'club moderator' : 'Professor Cecil B. Heimerdinger',
+    'location' : 'da lab',
+    'club moderator' : 'Heimerdinger',
     'number of members' : 50
 }    #dictionary for science club  
 
