@@ -10,7 +10,7 @@ from pyscript import display, document
 def getting_allat(e):
     first_name = document.getElementById('input1').value
     last_name = document.getElementById('input2').value
-    va_nox_grade = float(document.getElementById('va-noxgr').value)
+    brainrot_grade = float(document.getElementById('brainrotgr').value)
     pe_grade = float(document.getElementById('pegr').value)
     ict_grade = float(document.getElementById('ictgr').value)
     sci_grade = float(document.getElementById('scigr').value)
@@ -30,7 +30,7 @@ def getting_allat(e):
     Science: {sci_grade}<br>
     Mathematics: {mth_grade}<br>
     English: {eng_grade}<br>
-    Va-nox: {va_nox_grade}<br>
+    brainrot: {brainrot_grade}<br>
     PE: {pe_grade}<br>
     ICT: {ict_grade}<br>
     <strong>GWA:</strong> {gwa:.2f}
@@ -46,23 +46,23 @@ baseball = {
     'description' : 'baseball team of the school',
     'meeting times' : 'every monday 3:00-5:00 pm',
     'location' : 'university field',
-    'club moderator' : 'Ekko',
+    'club moderator' : 'mason',
     'number of members' : 30 
 }     #dictionary for the baseball club
 debate = {
     'name of club' : 'debate team',
-    'description' : 'a club to train the top piltovan debaters',
+    'description' : 'a club to train the kirkiest of the kirks',
     'meeting times' : 'every tuesday 2:30-5:00 pm',
     'location' : 'debate hall',
-    'club moderator' : 'Caitlyn Kiramman',
+    'club moderator' : 'kirkalicious',
     'number of members' : 25 
 }    #dictionary for debate club
 science = {
     'name of club' : 'science club',
-    'description' : 'the pinnacle of piltovers scientific minds',
+    'description' : 'the pinnacle of luh chill science',
     'meeting times' : 'every friday 2:00-6:00 pm',
     'location' : 'da lab',
-    'club moderator' : 'Heimerdinger',
+    'club moderator' : 'urmom B. 67',
     'number of members' : 50
 }    #dictionary for science club  
 
